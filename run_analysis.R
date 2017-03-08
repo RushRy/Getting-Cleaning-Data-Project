@@ -224,4 +224,4 @@ subjectActivtySummary <- allData %>%
                             # )
 
 # Write the output
-write.csv(subjectActivtySummary, file="subject_activity_summary.csv")
+write.table(subjectActivtySummary, file="subject_activity_summary.txt", sep=",", row.names=FALSE)
